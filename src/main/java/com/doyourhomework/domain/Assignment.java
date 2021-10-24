@@ -11,7 +11,7 @@ import javax.persistence.*;
 public class Assignment {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private AssignmentStatus status;
+    private String status;
     private String githubUrl;
     private String branch;
     private String codeReviewVideoUrl;
